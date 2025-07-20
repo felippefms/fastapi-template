@@ -86,6 +86,13 @@ fastapi dev fastapi_template/app.py
 poetry add --group dev pytest pytest-cov taskipy ruff
 ```
 
+- **pydantic-settings**: permite o uso de variáveis de ambiente pelo pydantic
+- **alembic**: ferramenta para gerenciar as migrações do banco de dados
+
+```bash
+poetry add pydantic-settings alembic
+```
+
 ## Configure as libs instaladas
 altere o arquivo **pyproject.toml**
 
