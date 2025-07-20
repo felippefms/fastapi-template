@@ -125,13 +125,6 @@ test = 'pytest -s -x --cov=fastapi_template -vv'
 post_test = 'coverage html'
 ```
 
-## Crie um gitignore
-Utilize um gitignore específico para python
-
-```bash
-pipx run ignr -p python > .gitignore
-```
-
 ## Utilizando a aplicação:
 
 - Iniciando a aplicação:
